@@ -4,12 +4,16 @@
 }
 
 body {
+    min-height: 100vh;
+    max-width: 100%;
     background-color: rgb(5, 32, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    max-height: 100vh;
-    max-width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,14 +21,14 @@ body {
     padding: 0 15px;
 }
 
+.container img {
+    margin-bottom: 10px;
+}
+
 .flex {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.container img {
-    margin: 10px 0;
 }
 
 span {
